@@ -1,0 +1,7 @@
+#add by modify@zte.com.cn 20160315 begin	  
+config MTK_LIS2DH12
+	bool "lis2dh12 ACCELEROMETER"
+	default n
+
+
+#add by modify@zte.com.cn 20160315 end

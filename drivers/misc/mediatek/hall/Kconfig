@@ -1,0 +1,6 @@
+#add by modify@zte.com.cn 20160125 begin
+config SENSORS_HALL
+	bool "hall for transsion solution"
+	default n
+
+#add by modify@zte.com.cn 20160125 end

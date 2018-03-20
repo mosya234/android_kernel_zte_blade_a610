@@ -1,0 +1,566 @@
+## modify@zte.com.cn 20160325 begin
+
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.6	//
+AUTO_SEARCH_BIN	gt9xx_update.c	94;"	d	file:
+AUTO_SEARCH_CFG	gt9xx_update.c	95;"	d	file:
+BANK_LENGTH	gt9xx_update.c	3002;"	d	file:
+BIN_FILE_READY	gt9xx_update.c	96;"	d	file:
+CFG_FILE_READY	gt9xx_update.c	97;"	d	file:
+CFG_GROUP_LEN	include/tpd_custom_gt9xx.h	122;"	d
+CFG_LOC_DRVA_NUM	include/tpd_custom_gt9xx.h	197;"	d
+CFG_LOC_DRVB_NUM	include/tpd_custom_gt9xx.h	198;"	d
+CFG_LOC_SENS_NUM	include/tpd_custom_gt9xx.h	199;"	d
+CFG_time_interval	gt9xx_driver.c	/^static u64 CFG_time_interval;$/;"	v	file:
+CHIP_TYPE_GT9	include/tpd_custom_gt9xx.h	/^	CHIP_TYPE_GT9 = 0,$/;"	e	enum:__anon4
+CHIP_TYPE_GT9F	include/tpd_custom_gt9xx.h	/^	CHIP_TYPE_GT9F = 1,$/;"	e	enum:__anon4
+CHIP_TYPE_T	include/tpd_custom_gt9xx.h	/^} CHIP_TYPE_T;$/;"	t	typeref:enum:__anon4
+CLEARBIT	gt9xx_driver.c	104;"	d	file:
+CLK_AVG_TIME	gt9xx_update.c	2158;"	d	file:
+CMD_HEAD_LENGTH	goodix_tool.c	59;"	d	file:
+CONFIG_FILE_PATH_1	gt9xx_update.c	63;"	d	file:
+CONFIG_FILE_PATH_2	gt9xx_update.c	64;"	d	file:
+CONFIG_GTP_DRIVER_SEND_CFG	include/tpd_custom_gt9xx.h	99;"	d
+CONFIG_OF_TOUCH	include/tpd_custom_gt9xx.h	100;"	d
+CTP_CFG_GROUP1	include/config1/gt9xx_config.h	7;"	d
+CTP_CFG_GROUP1_CHARGER	include/config1/gt9xx_config.h	34;"	d
+CTP_CFG_GROUP2	include/config1/gt9xx_config.h	65;"	d
+CTP_CFG_GROUP2_CHARGER	include/config1/gt9xx_config.h	69;"	d
+CTP_CFG_GROUP3	include/config1/gt9xx_config.h	76;"	d
+CTP_CFG_GROUP3_CHARGER	include/config1/gt9xx_config.h	80;"	d
+CTP_CFG_GROUP4	include/config1/gt9xx_config.h	87;"	d
+CTP_CFG_GROUP4_CHARGER	include/config1/gt9xx_config.h	90;"	d
+CTP_CFG_GROUP5	include/config1/gt9xx_config.h	97;"	d
+CTP_CFG_GROUP5_CHARGER	include/config1/gt9xx_config.h	100;"	d
+CTP_CFG_GROUP6	include/config1/gt9xx_config.h	107;"	d
+CTP_CFG_GROUP6_CHARGER	include/config1/gt9xx_config.h	110;"	d
+CUSTOM_CHIP_TYPE	include/tpd_custom_gt9xx.h	178;"	d
+DATA_LENGTH	goodix_tool.c	/^s32 DATA_LENGTH = 0;$/;"	v
+DATA_LENGTH_UINT	goodix_tool.c	58;"	d	file:
+DOZE_DISABLED	gt9xx_driver.c	/^	DOZE_DISABLED = 0,$/;"	e	enum:__anon1	file:
+DOZE_ENABLED	gt9xx_driver.c	/^	DOZE_ENABLED = 1,$/;"	e	enum:__anon1	file:
+DOZE_T	gt9xx_driver.c	/^} DOZE_T;$/;"	t	typeref:enum:__anon1	file:
+DOZE_WAKEUP	gt9xx_driver.c	/^	DOZE_WAKEUP = 2,$/;"	e	enum:__anon1	file:
+ERROR_FILE_READ	include/tpd_custom_gt9xx.h	300;"	d
+ERROR_FILE_TYPE	include/tpd_custom_gt9xx.h	301;"	d
+ERROR_GPIO_REQUEST	include/tpd_custom_gt9xx.h	302;"	d
+ERROR_I2C_TRANSFER	include/tpd_custom_gt9xx.h	303;"	d
+ERROR_NO_FILE	include/tpd_custom_gt9xx.h	299;"	d
+ERROR_NO_RESPONSE	include/tpd_custom_gt9xx.h	304;"	d
+ERROR_TIMEOUT	include/tpd_custom_gt9xx.h	305;"	d
+FAIL	gt9xx_update.c	100;"	d	file:
+FAIL	include/tpd_custom_gt9xx.h	166;"	d
+FIRMWARE_HEADER_LEN	gt9xx_update.c	3003;"	d	file:
+FIRMWARE_LENGTH	gt9xx_update.c	77;"	d	file:
+FLASHLESS_FLASH_WORKROUND	include/tpd_custom_gt9xx.h	123;"	d
+FL_UPDATE_PATH	gt9xx_update.c	2148;"	d	file:
+FL_UPDATE_PATH_SD	gt9xx_update.c	2149;"	d	file:
+FW_APP_CODE_LENGTH	gt9xx_update.c	75;"	d	file:
+FW_BOOT_ISP_LENGTH	gt9xx_update.c	73;"	d	file:
+FW_BOOT_LENGTH	gt9xx_update.c	71;"	d	file:
+FW_DOWNLOAD_LENGTH	gt9xx_update.c	67;"	d	file:
+FW_DSP_ISP_LENGTH	gt9xx_update.c	69;"	d	file:
+FW_DSP_LENGTH	gt9xx_update.c	70;"	d	file:
+FW_HEAD_LENGTH	gt9xx_update.c	66;"	d	file:
+FW_HOTKNOT_LENGTH	gt9xx_update.c	80;"	d	file:
+FW_LINK_LENGTH	gt9xx_update.c	74;"	d	file:
+FW_SECTION_LENGTH	gt9xx_update.c	68;"	d	file:
+FW_SS51_LENGTH	gt9xx_update.c	72;"	d	file:
+FX_SYSTEM_PATH	gt9xx_update.c	105;"	d	file:
+GESTURE_DATA_ERASE	gt9xx_driver.c	93;"	d	file:
+GESTURE_DATA_OBTAIN	gt9xx_driver.c	92;"	d	file:
+GESTURE_DISABLE_PARTLY	gt9xx_driver.c	90;"	d	file:
+GESTURE_DISABLE_TOTALLY	gt9xx_driver.c	88;"	d	file:
+GESTURE_ENABLE_PARTLY	gt9xx_driver.c	89;"	d	file:
+GESTURE_ENABLE_TOTALLY	gt9xx_driver.c	87;"	d	file:
+GESTURE_MAX_POINT_COUNT	gt9xx_driver.c	81;"	d	file:
+GESTURE_NODE	gt9xx_driver.c	80;"	d	file:
+GOODIX_MAGIC_NUMBER	gt9xx_driver.c	84;"	d	file:
+GT917S_UPDATE_RULE	gt9xx_update.c	108;"	d	file:
+GT91XX_CONFIG_PROC_FILE	include/tpd_custom_gt9xx.h	160;"	d
+GT91XX_PROC_FILE	include/tpd_custom_gt9xx.h	161;"	d
+GTP_ADDR_LENGTH	include/tpd_custom_gt9xx.h	163;"	d
+GTP_BAK_REF_PATH	include/tpd_custom_gt9xx.h	203;"	d
+GTP_BAK_REF_SEND	include/tpd_custom_gt9xx.h	195;"	d
+GTP_BAK_REF_STORE	include/tpd_custom_gt9xx.h	196;"	d
+GTP_CFG_GROUP1_LEATHER	include/config1/gt9xx_config.h	37;"	d
+GTP_CFG_GROUP2_LEATHER	include/config1/gt9xx_config.h	72;"	d
+GTP_CFG_GROUP3_LEATHER	include/config1/gt9xx_config.h	83;"	d
+GTP_CFG_GROUP4_LEATHER	include/config1/gt9xx_config.h	93;"	d
+GTP_CFG_GROUP5_LEATHER	include/config1/gt9xx_config.h	103;"	d
+GTP_CFG_GROUP6_LEATHER	include/config1/gt9xx_config.h	113;"	d
+GTP_CHK_FS_MNT_MAX	include/tpd_custom_gt9xx.h	202;"	d
+GTP_CHK_FW_MAX	include/tpd_custom_gt9xx.h	201;"	d
+GTP_COMPATIBLE_MODE	include/tpd_custom_gt9xx.h	105;"	d
+GTP_CONFIG_MAX_LENGTH	include/tpd_custom_gt9xx.h	111;"	d
+GTP_CONFIG_MAX_LENGTH	include/tpd_custom_gt9xx.h	165;"	d
+GTP_CONFIG_MIN_LENGTH	include/tpd_custom_gt9xx.h	110;"	d
+GTP_CONFIG_MIN_LENGTH	include/tpd_custom_gt9xx.h	164;"	d
+GTP_DEBUG	include/tpd_custom_gt9xx.h	263;"	d
+GTP_DEBUG_ARRAY	include/tpd_custom_gt9xx.h	269;"	d
+GTP_DEBUG_ARRAY	include/tpd_custom_gt9xx.h	283;"	d
+GTP_DEBUG_ARRAY_ON	include/tpd_custom_gt9xx.h	119;"	d
+GTP_DEBUG_FUNC	include/tpd_custom_gt9xx.h	286;"	d
+GTP_DEBUG_FUNC	include/tpd_custom_gt9xx.h	288;"	d
+GTP_DEBUG_FUNC_ON	include/tpd_custom_gt9xx.h	120;"	d
+GTP_DEBUG_ON	include/tpd_custom_gt9xx.h	118;"	d
+GTP_DMA_MAX_I2C_TRANSFER_SIZE	include/tpd_custom_gt9xx.h	233;"	d
+GTP_DMA_MAX_TRANSACTION_LENGTH	include/tpd_custom_gt9xx.h	232;"	d
+GTP_DRIVER_VERSION	include/tpd_custom_gt9xx.h	158;"	d
+GTP_ERROR	include/tpd_custom_gt9xx.h	262;"	d
+GTP_ESD_CHECK_CIRCLE	include/tpd_custom_gt9xx.h	144;"	d
+GTP_ESD_PROTECT	include/tpd_custom_gt9xx.h	106;"	d
+GTP_FL_ESD_RECOVERY	include/tpd_custom_gt9xx.h	192;"	d
+GTP_FL_FW_BURN	include/tpd_custom_gt9xx.h	191;"	d
+GTP_FL_READ_REPAIR	include/tpd_custom_gt9xx.h	193;"	d
+GTP_FORCE_UPDATE_FW	gt9xx_update.c	107;"	d	file:
+GTP_GESTURE_WAKEUP	include/tpd_custom_gt9xx.h	113;"	d
+GTP_GPIO_AS_INT	include/tpd_custom_gt9xx.h	130;"	d
+GTP_GPIO_OUTPUT	include/tpd_custom_gt9xx.h	131;"	d
+GTP_HAVE_TOUCH_KEY	include/tpd_custom_gt9xx.h	102;"	d
+GTP_I2C_NAME	include/tpd_custom_gt9xx.h	159;"	d
+GTP_INFO	include/tpd_custom_gt9xx.h	261;"	d
+GTP_INT_TRIGGER	include/tpd_custom_gt9xx.h	137;"	d
+GTP_INT_TRIGGER	include/tpd_custom_gt9xx.h	141;"	d
+GTP_KEY_TAB	include/tpd_custom_gt9xx.h	154;"	d
+GTP_MAIN_CLK_PATH	include/tpd_custom_gt9xx.h	204;"	d
+GTP_MAX_HEIGHT	include/tpd_custom_gt9xx.h	135;"	d
+GTP_MAX_HEIGHT	include/tpd_custom_gt9xx.h	139;"	d
+GTP_MAX_KEY_NUM	gt9xx_driver.c	48;"	d	file:
+GTP_MAX_TOUCH	include/tpd_custom_gt9xx.h	143;"	d
+GTP_MAX_WIDTH	include/tpd_custom_gt9xx.h	136;"	d
+GTP_MAX_WIDTH	include/tpd_custom_gt9xx.h	140;"	d
+GTP_POLL_TIME	include/tpd_custom_gt9xx.h	162;"	d
+GTP_POWER_CTRL_SLEEP	include/tpd_custom_gt9xx.h	104;"	d
+GTP_READ_COOR_ADDR	include/tpd_custom_gt9xx.h	221;"	d
+GTP_REG_BAK_REF	include/tpd_custom_gt9xx.h	185;"	d
+GTP_REG_CHIP_TYPE	include/tpd_custom_gt9xx.h	187;"	d
+GTP_REG_CONFIG_DATA	include/tpd_custom_gt9xx.h	224;"	d
+GTP_REG_HAVE_KEY	include/tpd_custom_gt9xx.h	188;"	d
+GTP_REG_HN_STATE	include/tpd_custom_gt9xx.h	189;"	d
+GTP_REG_HW_INFO	include/tpd_custom_gt9xx.h	226;"	d
+GTP_REG_MAIN_CLK	include/tpd_custom_gt9xx.h	186;"	d
+GTP_REG_MATRIX_DRVNUM	include/tpd_custom_gt9xx.h	182;"	d
+GTP_REG_MATRIX_SENNUM	include/tpd_custom_gt9xx.h	183;"	d
+GTP_REG_REFRESH_RATE	gt9xx_driver.c	482;"	d	file:
+GTP_REG_REFRESH_RATE	include/tpd_custom_gt9xx.h	227;"	d
+GTP_REG_RQST	include/tpd_custom_gt9xx.h	184;"	d
+GTP_REG_SENSOR_ID	include/tpd_custom_gt9xx.h	223;"	d
+GTP_REG_SLEEP	include/tpd_custom_gt9xx.h	222;"	d
+GTP_REG_VERSION	include/tpd_custom_gt9xx.h	225;"	d
+GTP_RQST_BAK_REF	include/tpd_custom_gt9xx.h	206;"	d
+GTP_RQST_CONFIG	include/tpd_custom_gt9xx.h	205;"	d
+GTP_RQST_HOTKNOT_CODE	include/tpd_custom_gt9xx.h	209;"	d
+GTP_RQST_IDLE	include/tpd_custom_gt9xx.h	211;"	d
+GTP_RQST_MAIN_CLOCK	include/tpd_custom_gt9xx.h	208;"	d
+GTP_RQST_RESET	include/tpd_custom_gt9xx.h	207;"	d
+GTP_RQST_RESPONDED	include/tpd_custom_gt9xx.h	210;"	d
+GTP_SUPPORT_I2C_DMA	include/tpd_custom_gt9xx.h	93;"	d
+GTP_SUPPORT_I2C_DMA	include/tpd_custom_gt9xx.h	95;"	d
+GTP_SWAP	include/tpd_custom_gt9xx.h	290;"	d
+GTP_WITH_PEN	include/tpd_custom_gt9xx.h	112;"	d
+GUP_FW_CHK_SIZE	gt9xx_update.c	2151;"	d	file:
+GUP_FW_INFO	gt9xx_driver.c	2;"	d	file:
+GUP_FW_INFO	gt9xx_update.c	48;"	d	file:
+GUP_REG_FW_MSG	gt9xx_update.c	56;"	d	file:
+GUP_REG_HW_INFO	gt9xx_update.c	55;"	d	file:
+GUP_REG_PID_VID	gt9xx_update.c	57;"	d	file:
+GUP_SEARCH_FILE_TIMES	gt9xx_update.c	59;"	d	file:
+HEADER_FW_READY	gt9xx_update.c	98;"	d	file:
+HN_DEVICE_PAIRED	include/tpd_custom_gt9xx.h	213;"	d
+HN_MASTER_DEPARTED	include/tpd_custom_gt9xx.h	214;"	d
+HN_MASTER_SEND	include/tpd_custom_gt9xx.h	216;"	d
+HN_SLAVE_DEPARTED	include/tpd_custom_gt9xx.h	215;"	d
+HN_SLAVE_RECEIVED	include/tpd_custom_gt9xx.h	217;"	d
+HOTKNOTNAME	goodix_tool.c	81;"	d	file:
+HOTKNOT_SYSTEM_PATH	gt9xx_update.c	104;"	d	file:
+I2C_MASTER_CLOCK	include/tpd_custom_gt9xx.h	236;"	d
+IC_TYPE	goodix_tool.c	/^s8 IC_TYPE[16] = "GT9XX";$/;"	v
+INIT_CLK_DAC	gt9xx_update.c	2156;"	d	file:
+MAIN_SYSTEM_PATH	gt9xx_update.c	103;"	d	file:
+MAX_CHECK_TIMES	gt9xx_update.c	2152;"	d	file:
+MAX_CLK_DAC	gt9xx_update.c	2157;"	d	file:
+MAX_FRAME_CHECK_TIME	gt9xx_update.c	82;"	d	file:
+MAX_I2C_TRANSFER_SIZE	include/tpd_custom_gt9xx.h	237;"	d
+MAX_TRANSACTION_LENGTH	include/tpd_custom_gt9xx.h	234;"	d
+MILLION	gt9xx_update.c	2159;"	d	file:
+NEGLECT_SIZE_MASK	gt9xx_driver.c	85;"	d	file:
+PACK_SIZE	gt9xx_update.c	81;"	d	file:
+PULSE_LENGTH	gt9xx_update.c	2155;"	d	file:
+QUERYBIT	gt9xx_driver.c	105;"	d	file:
+RESOLUTION_LOC	include/tpd_custom_gt9xx.h	229;"	d
+RLK_LEATHER_MODE	include/tpd_custom_gt9xx.h	114;"	d
+SETBIT	gt9xx_driver.c	103;"	d	file:
+SUCCESS	gt9xx_update.c	101;"	d	file:
+SUCCESS	include/tpd_custom_gt9xx.h	167;"	d
+SWITCH_OFF	include/tpd_custom_gt9xx.h	168;"	d
+SWITCH_ON	include/tpd_custom_gt9xx.h	169;"	d
+TOUCH_FILTER	include/tpd_custom_gt9xx.h	41;"	d
+TPD_CALIBRATION_MATRIX	include/tpd_custom_gt9xx.h	239;"	d
+TPD_CHARGER_CHECK_CIRCLE	gt9xx_driver.c	457;"	d	file:
+TPD_CUSTOM_GT9XX_H__	include/tpd_custom_gt9xx.h	2;"	d
+TPD_FILTER_PARA	include/tpd_custom_gt9xx.h	43;"	d
+TPD_HAVE_BUTTON	include/tpd_custom_gt9xx.h	150;"	d
+TPD_HAVE_CALIBRATION	include/tpd_custom_gt9xx.h	242;"	d
+TPD_I2C_NUMBER	include/tpd_custom_gt9xx.h	235;"	d
+TPD_KEYS	include/tpd_custom_gt9xx.h	38;"	d
+TPD_KEYS_DIM	include/tpd_custom_gt9xx.h	39;"	d
+TPD_KEY_COUNT	include/tpd_custom_gt9xx.h	32;"	d
+TPD_MAX_RESET_COUNT	include/tpd_custom_gt9xx.h	238;"	d
+TPD_NO_GPIO	include/tpd_custom_gt9xx.h	243;"	d
+TPD_PROXIMITY_ENABLE_REG	gt9xx_driver.c	476;"	d	file:
+TPD_PROXIMITY_VALID_REG	gt9xx_driver.c	475;"	d	file:
+TPD_RESET_ISSUE_WORKAROUND	include/tpd_custom_gt9xx.h	241;"	d
+TPD_RESET_ISSUE_WORKAROUND	include/tpd_custom_gt9xx.h	244;"	d
+TPD_VELOCITY_CUSTOM_X	include/tpd_custom_gt9xx.h	147;"	d
+TPD_VELOCITY_CUSTOM_Y	include/tpd_custom_gt9xx.h	148;"	d
+TPD_WARP_X	include/tpd_custom_gt9xx.h	247;"	d
+TPD_WARP_X	include/tpd_custom_gt9xx.h	248;"	d
+TPD_WARP_X	include/tpd_custom_gt9xx.h	250;"	d
+TPD_WARP_Y	include/tpd_custom_gt9xx.h	254;"	d
+TPD_WARP_Y	include/tpd_custom_gt9xx.h	255;"	d
+TPD_WARP_Y	include/tpd_custom_gt9xx.h	257;"	d
+TRIGGER_LOC	include/tpd_custom_gt9xx.h	230;"	d
+UPDATE_FILE_PATH_1	gt9xx_update.c	60;"	d	file:
+UPDATE_FILE_PATH_2	gt9xx_update.c	61;"	d	file:
+UPDATE_FUNCTIONS	include/tpd_custom_gt9xx.h	372;"	d
+VELOCITY_CUSTOM	include/tpd_custom_gt9xx.h	146;"	d
+_CLOSE_FILE	gt9xx_update.c	139;"	d	file:
+_GT9XX_CONFIG_H_	include/config1/gt9xx_config.h	2;"	d
+_GT9XX_FIRMWARE_H_	include/firmware1/gt9xx_firmware.h	13;"	d
+_bRO_MISCTL__MEA_RDY	gt9xx_update.c	2178;"	d	file:
+_bRW_MISCTL__CACHE_EN	gt9xx_update.c	86;"	d	file:
+_bRW_MISCTL__MEA_MODE	gt9xx_update.c	2174;"	d	file:
+_bRW_MISCTL__MEA_SRCSEL	gt9xx_update.c	2177;"	d	file:
+_bRW_MISCTL__MEM_CD_EN	gt9xx_update.c	85;"	d	file:
+_bRW_MISCTL__OSC_CK_SEL	gt9xx_update.c	2184;"	d	file:
+_bRW_MISCTL__RG_BG_PWD	gt9xx_update.c	2181;"	d	file:
+_bRW_MISCTL__RG_CLKGEN_PWD	gt9xx_update.c	2182;"	d	file:
+_bRW_MISCTL__RG_LDO_A18_PWD	gt9xx_update.c	2180;"	d	file:
+_bRW_MISCTL__RG_OSC_CALIB	gt9xx_update.c	2162;"	d	file:
+_bRW_MISCTL__SRAM_BANK	gt9xx_update.c	84;"	d	file:
+_bRW_MISCTL__TMR0_EN	gt9xx_update.c	87;"	d	file:
+_bWO_MISCTL__CPU_SWRST_PULSE	gt9xx_update.c	89;"	d	file:
+_dRO_MISCTL__MEA_VAL	gt9xx_update.c	2176;"	d	file:
+_fRW_MISCTL__GIO0	gt9xx_update.c	2163;"	d	file:
+_fRW_MISCTL__GIO1	gt9xx_update.c	2164;"	d	file:
+_fRW_MISCTL__GIO2	gt9xx_update.c	2165;"	d	file:
+_fRW_MISCTL__GIO3	gt9xx_update.c	2166;"	d	file:
+_fRW_MISCTL__GIO4	gt9xx_update.c	2167;"	d	file:
+_fRW_MISCTL__GIO5	gt9xx_update.c	2168;"	d	file:
+_fRW_MISCTL__GIO6	gt9xx_update.c	2169;"	d	file:
+_fRW_MISCTL__GIO7	gt9xx_update.c	2170;"	d	file:
+_fRW_MISCTL__GIO8	gt9xx_update.c	2171;"	d	file:
+_fRW_MISCTL__GIO9	gt9xx_update.c	2172;"	d	file:
+_fRW_MISCTL__MEA	gt9xx_update.c	2173;"	d	file:
+_fRW_MISCTL__RG_RXADC_PWD	gt9xx_update.c	2183;"	d	file:
+_rRW_MISCTL_RG_DMY83	gt9xx_update.c	2185;"	d	file:
+_rRW_MISCTL__ANA_RXADC_B0_	gt9xx_update.c	2179;"	d	file:
+_rRW_MISCTL__BOOTCTL_B0_	gt9xx_update.c	90;"	d	file:
+_rRW_MISCTL__BOOT_CTL_	gt9xx_update.c	92;"	d	file:
+_rRW_MISCTL__BOOT_OPT_B0_	gt9xx_update.c	91;"	d	file:
+_rRW_MISCTL__GIO1CTL_B1_	gt9xx_update.c	2187;"	d	file:
+_rRW_MISCTL__GIO1CTL_B2_	gt9xx_update.c	2186;"	d	file:
+_rRW_MISCTL__SWRST_B0_	gt9xx_update.c	88;"	d	file:
+_wRW_MISCTL__MEA_MAX_NUM	gt9xx_update.c	2175;"	d	file:
+_wRW_MISCTL__RG_DMY	gt9xx_update.c	2161;"	d	file:
+abs_x_max	gt9xx_driver.c	/^u32 abs_x_max = 0;$/;"	v
+abs_y_max	gt9xx_driver.c	/^u32 abs_y_max = 0;$/;"	v
+addr	goodix_tool.c	/^	u8 addr[2];		\/*address*\/$/;"	m	struct:__anon8	file:
+addr_len	goodix_tool.c	/^	u8 addr_len;		\/*address length*\/$/;"	m	struct:__anon8	file:
+ascii2hex	gt9xx_update.c	/^static u8 ascii2hex(u8 a)$/;"	f	file:
+bp_waiter	goodix_tool.c	/^DECLARE_WAIT_QUEUE_HEAD(bp_waiter);$/;"	v
+cfg_file	gt9xx_update.c	/^	struct file *cfg_file;$/;"	m	struct:__anon6	typeref:struct:__anon6::file	file:
+cfg_len	gt9xx_driver.c	/^u8 cfg_len = 0;$/;"	v
+charger_cfg_len	gt9xx_driver.c	/^u8 charger_cfg_len = 0;$/;"	v
+charger_config	gt9xx_driver.c	/^static u8 charger_config[GTP_CONFIG_MAX_LENGTH + GTP_ADDR_LENGTH]$/;"	v	file:
+charger_grp_cfg_version	gt9xx_driver.c	/^u8 charger_grp_cfg_version = 0;$/;"	v
+check_flag	gt9xx_driver.c	/^static bool check_flag;$/;"	v	file:
+chip_gt9xxs	gt9xx_driver.c	/^static u8 chip_gt9xxs;	\/* true if chip type is gt9xxs,like gt915s*\/$/;"	v	file:
+circle	goodix_tool.c	/^	u16 circle;		\/*polling cycle*\/$/;"	m	struct:__anon8	file:
+clk_tick_cnt	gt9xx_driver.c	/^static int clk_tick_cnt = 200;$/;"	v	file:
+cmd_head	goodix_tool.c	/^st_cmd_head cmd_head;$/;"	v
+comfirm	goodix_tool.c	/^static u8 comfirm(void)$/;"	f	file:
+config	gt9xx_driver.c	/^static u8 config[GTP_CONFIG_MAX_LENGTH + GTP_ADDR_LENGTH]$/;"	v	file:
+config_charger	gt9xx_driver.c	/^static u8 config_charger[GTP_CONFIG_MAX_LENGTH + GTP_ADDR_LENGTH]$/;"	v	file:
+current_system_length	gt9xx_update.c	/^static u32 current_system_length;$/;"	v	file:
+data	goodix_tool.c	/^	u8 *data;		\/*data pointer*\/$/;"	m	struct:__anon8	file:
+data	gt9xx_driver.c	/^	u8 data[3 + GESTURE_MAX_POINT_COUNT * 4 + 80];	\/*80 bytes for extra data *\/$/;"	m	struct:__anon2	file:
+data_len	goodix_tool.c	/^	u16 data_len;		\/*data length*\/$/;"	m	struct:__anon8	file:
+delay	goodix_tool.c	/^	u16 delay;		\/*delay before read or after write*\/$/;"	m	struct:__anon8	file:
+doze_status	gt9xx_driver.c	/^static DOZE_T doze_status = DOZE_DISABLED;$/;"	v	file:
+driver_num	gt9xx_driver.c	/^u8 driver_num = 0;$/;"	v
+esd_lock	gt9xx_driver.c	/^spinlock_t esd_lock;$/;"	v
+esd_running	gt9xx_driver.c	/^u8 esd_running = 0;$/;"	v
+file	gt9xx_update.c	/^	struct file *file;$/;"	m	struct:__anon6	typeref:struct:__anon6::file	file:
+fixed_config	gt9xx_driver.c	/^u8 fixed_config = 0;$/;"	v
+flag	goodix_tool.c	/^	u8 flag;		\/*0:no need flag\/int 1: need flag  2:need int*\/$/;"	m	struct:__anon8	file:
+flag_addr	goodix_tool.c	/^	u8 flag_addr[2];	\/*flag address *\/$/;"	m	struct:__anon8	file:
+flag_relation	goodix_tool.c	/^	u8 flag_relation;	\/*flag_val:flag 0:not equal 1:equal 2:> 3:<*\/$/;"	m	struct:__anon8	file:
+flag_val	goodix_tool.c	/^	u8 flag_val;		\/*flag val*\/$/;"	m	struct:__anon8	file:
+force	gt9xx_driver.c	/^static unsigned short force[] = { 0, 0xBA, I2C_CLIENT_END, I2C_CLIENT_END };$/;"	v	file:
+force_reset_guitar	gt9xx_driver.c	/^void force_reset_guitar(void)$/;"	f
+force_update	gt9xx_update.c	/^	u8 force_update;$/;"	m	struct:__anon6	file:
+force_wake_flag	goodix_tool.c	/^u8 force_wake_flag = 0;$/;"	v
+forces	gt9xx_driver.c	/^static const unsigned short *const forces[] = { force, NULL };$/;"	v	file:
+fw_burned_len	gt9xx_update.c	/^	u32 fw_burned_len;$/;"	m	struct:__anon6	file:
+fw_flag	gt9xx_update.c	/^	u8 fw_flag;$/;"	m	struct:__anon6	file:
+fw_total_len	gt9xx_update.c	/^	u32 fw_total_len;$/;"	m	struct:__anon6	file:
+gesture_clear_wakeup_data	gt9xx_driver.c	/^void gesture_clear_wakeup_data(void)$/;"	f
+gesture_data	gt9xx_driver.c	/^static st_gesture_data gesture_data;$/;"	v	file:
+gesture_data_mutex	gt9xx_driver.c	/^static struct mutex gesture_data_mutex;$/;"	v	typeref:struct:mutex	file:
+gesture_enabled	gt9xx_driver.c	/^int gesture_enabled = 0;\/\/for debug  0-->1$/;"	v
+gesture_status_read	gt9xx_driver.c	/^static ssize_t gesture_status_read(struct file *file,char *buffer, size_t count, loff_t *ppos)$/;"	f	file:
+gesture_status_write	gt9xx_driver.c	/^static ssize_t gesture_status_write(struct file *filp, const char __user * buf, size_t len, loff_t * off)$/;"	f	file:
+gesturechar_enabled	gt9xx_driver.c	/^int gesturechar_enabled =0;\/\/for debug   0-->1$/;"	v
+gesturedouble_enabled	gt9xx_driver.c	/^int gesturedouble_enabled=0;\/\/for debug  0-->1$/;"	v
+gestures	gt9xx_driver.c	/^	u8 gestures[4];$/;"	m	struct:__anon2	file:
+gestures_flag	gt9xx_driver.c	/^static u8 gestures_flag[32];$/;"	v	file:
+get_psval	gt9xx_driver.c	/^int (*get_psval)(void) = stk3xlx_get_psval;$/;"	v
+goodix_tool_read	goodix_tool.c	/^static s32 goodix_tool_read(char *page, char **start, off_t off, int count, int *eof, void *data)$/;"	f	file:
+goodix_tool_upper_read	goodix_tool.c	/^static ssize_t goodix_tool_upper_read(struct file *file, char __user *buffer, size_t count, loff_t *ppos)$/;"	f	file:
+goodix_tool_upper_write	goodix_tool.c	/^static ssize_t goodix_tool_upper_write(struct file *file, const char __user *buffer, size_t count, loff_t *ppos)$/;"	f	file:
+goodix_tool_write	goodix_tool.c	/^static s32 goodix_tool_write(struct file *filp, const char __user *buff, unsigned long len, void *data)$/;"	f	file:
+got_file_flag	gt9xx_update.c	/^u8 got_file_flag = 0;$/;"	v
+got_hotknot_extra_state	goodix_tool.c	/^u8 got_hotknot_extra_state = 0;$/;"	v
+got_hotknot_state	goodix_tool.c	/^u8 got_hotknot_state = 0;$/;"	v
+gpDMABuf_pa	gt9xx_driver.c	/^static dma_addr_t gpDMABuf_pa;$/;"	v	file:
+gpDMABuf_va	gt9xx_driver.c	/^static u8 *gpDMABuf_va;$/;"	v	file:
+grp_cfg_version	gt9xx_driver.c	/^u8 grp_cfg_version = 0;$/;"	v
+gt1x_deinit_node	gt9xx_driver.c	/^void gt1x_deinit_node(void)$/;"	f
+gt1x_fops	gt9xx_driver.c	/^static const struct file_operations gt1x_fops = {$/;"	v	typeref:struct:file_operations	file:
+gt1x_gesture_data_read	gt9xx_driver.c	/^static ssize_t gt1x_gesture_data_read(struct file *file, char * buffer, size_t size, loff_t * ppos)$/;"	f	file:
+gt1x_gesture_data_write	gt9xx_driver.c	/^static ssize_t gt1x_gesture_data_write(struct file *filp, const char __user * buf, size_t len, loff_t * off)$/;"	f	file:
+gt1x_init_node	gt9xx_driver.c	/^s32 gt1x_init_node(void)$/;"	f
+gt2x_fops	gt9xx_driver.c	/^static const struct file_operations gt2x_fops = {$/;"	v	typeref:struct:file_operations	file:
+gt91xx_config_proc	gt9xx_driver.c	/^static struct proc_dir_entry *gt91xx_config_proc;$/;"	v	typeref:struct:proc_dir_entry	file:
+gt91xx_config_read_proc	gt9xx_driver.c	/^static ssize_t gt91xx_config_read_proc(struct file *file, char *buffer, size_t count, loff_t *ppos)$/;"	f	file:
+gt91xx_config_write_proc	gt9xx_driver.c	/^static ssize_t gt91xx_config_write_proc(struct file *file, const char *buffer, size_t count, loff_t *ppos)$/;"	f	file:
+gt91xx_leather_mode_read_proc	gt9xx_driver.c	/^static ssize_t gt91xx_leather_mode_read_proc(struct file *file, char *buffer, size_t count, loff_t *ppos)$/;"	f	file:
+gt91xx_leather_mode_write_proc	gt9xx_driver.c	/^static ssize_t gt91xx_leather_mode_write_proc(struct file *file,const char *buffer, size_t count, loff_t *ppos)$/;"	f	file:
+gt91xx_proc	gt9xx_driver.c	/^static struct proc_dir_entry *gt91xx_proc;$/;"	v	typeref:struct:proc_dir_entry	file:
+gt9xx_attrs	gt9xx_driver.c	/^static struct device_attribute *gt9xx_attrs[] = {$/;"	v	typeref:struct:device_attribute	file:
+gt_client	goodix_tool.c	/^static struct i2c_client *gt_client;$/;"	v	typeref:struct:i2c_client	file:
+gt_leather_mode_proc_fops	gt9xx_driver.c	/^static const struct file_operations gt_leather_mode_proc_fops = {$/;"	v	typeref:struct:file_operations	file:
+gt_tool_fops	goodix_tool.c	/^static const struct file_operations gt_tool_fops = {$/;"	v	typeref:struct:file_operations	file:
+gt_upgrade_proc_fops	gt9xx_driver.c	/^static const struct file_operations gt_upgrade_proc_fops = {$/;"	v	typeref:struct:file_operations	file:
+gtp_bak_ref_proc	gt9xx_driver.c	/^static u8 gtp_bak_ref_proc(struct i2c_client *client, u8 mode)$/;"	f	file:
+gtp_charger_check_work	gt9xx_driver.c	/^static struct delayed_work gtp_charger_check_work;$/;"	v	typeref:struct:delayed_work	file:
+gtp_charger_check_workqueue	gt9xx_driver.c	/^static struct workqueue_struct *gtp_charger_check_workqueue;$/;"	v	typeref:struct:workqueue_struct	file:
+gtp_charger_mode	gt9xx_driver.c	/^static u8 gtp_charger_mode;$/;"	v	file:
+gtp_charger_switch	gt9xx_driver.c	/^static void gtp_charger_switch(s32 dir_update)$/;"	f	file:
+gtp_check_clk_legality	gt9xx_driver.c	/^static u8 gtp_check_clk_legality(void)$/;"	f	file:
+gtp_chip_type	gt9xx_driver.c	/^CHIP_TYPE_T gtp_chip_type = CHIP_TYPE_GT9;$/;"	v
+gtp_clk_buf	gt9xx_driver.c	/^u8 gtp_clk_buf[6];$/;"	v
+gtp_clk_retries	gt9xx_driver.c	/^u8 gtp_clk_retries = 0;$/;"	v
+gtp_default_FW	include/firmware1/gt9xx_firmware.h	/^unsigned char gtp_default_FW[] = {$/;"	v
+gtp_default_FW_fl	include/firmware1/gt9xx_firmware.h	/^unsigned char gtp_default_FW_fl[] = {$/;"	v
+gtp_default_FW_hotknot	include/firmware1/gt9xx_firmware.h	/^unsigned char gtp_default_FW_hotknot[] = {$/;"	v
+gtp_default_FW_hotknot2	include/firmware1/gt9xx_firmware.h	/^unsigned char gtp_default_FW_hotknot2[] = {$/;"	v
+gtp_eint_trigger_type	gt9xx_driver.c	/^u32 gtp_eint_trigger_type = IRQF_TRIGGER_FALLING;$/;"	v
+gtp_enter_doze	gt9xx_driver.c	/^static s8 gtp_enter_doze(struct i2c_client *client)$/;"	f	file:
+gtp_enter_sleep	gt9xx_driver.c	/^static s8 gtp_enter_sleep(struct i2c_client *client)$/;"	f	file:
+gtp_esd_check_func	gt9xx_driver.c	/^static void gtp_esd_check_func(struct work_struct *work)$/;"	f	file:
+gtp_esd_check_work	gt9xx_driver.c	/^static struct delayed_work gtp_esd_check_work;$/;"	v	typeref:struct:delayed_work	file:
+gtp_esd_check_workqueue	gt9xx_driver.c	/^static struct workqueue_struct *gtp_esd_check_workqueue;$/;"	v	typeref:struct:workqueue_struct	file:
+gtp_esd_switch	gt9xx_driver.c	/^void gtp_esd_switch(struct i2c_client *client, s32 on)$/;"	f
+gtp_fw_startup	gt9xx_driver.c	/^u8 gtp_fw_startup(struct i2c_client *client)$/;"	f
+gtp_get_chip_type	gt9xx_driver.c	/^void gtp_get_chip_type(struct i2c_client *client)$/;"	f
+gtp_get_gesture_area	gt9xx_driver.c	/^static u8 gtp_get_gesture_area(struct i2c_client *client){$/;"	f	file:
+gtp_get_info	gt9xx_driver.c	/^static s32 gtp_get_info(struct i2c_client *client)$/;"	f	file:
+gtp_get_refresh_rate	gt9xx_driver.c	/^static u8 gtp_get_refresh_rate(void)$/;"	f	file:
+gtp_hotknot_calibration_section0	include/firmware1/gt9xx_firmware.h	/^unsigned char gtp_hotknot_calibration_section0[] = {$/;"	v
+gtp_hotknot_enabled	goodix_tool.c	/^u8 gtp_hotknot_enabled = 0;$/;"	v
+gtp_i2c_read	gt9xx_driver.c	/^s32 gtp_i2c_read(struct i2c_client *client, u8 *buf, s32 len)$/;"	f
+gtp_i2c_read_dbl_check	gt9xx_driver.c	/^s32 gtp_i2c_read_dbl_check(struct i2c_client *client, u16 addr, u8 *rxbuf, int len)$/;"	f
+gtp_i2c_test	gt9xx_driver.c	/^static s8 gtp_i2c_test(struct i2c_client *client)$/;"	f	file:
+gtp_i2c_write	gt9xx_driver.c	/^s32 gtp_i2c_write(struct i2c_client *client, u8 *buf, s32 len)$/;"	f
+gtp_init_ext_watchdog	gt9xx_driver.c	/^static s32 gtp_init_ext_watchdog(struct i2c_client *client)$/;"	f	file:
+gtp_init_panel	gt9xx_driver.c	/^static s32 gtp_init_panel(struct i2c_client *client)$/;"	f	file:
+gtp_int_sync	gt9xx_driver.c	/^void gtp_int_sync(s32 ms)$/;"	f
+gtp_leather_config	gt9xx_driver.c	/^static u8 gtp_leather_config[GTP_CONFIG_MAX_LENGTH + GTP_ADDR_LENGTH]={GTP_REG_CONFIG_DATA >> 8,GTP_REG_CONFIG_DATA && 0xff};$/;"	v	file:
+gtp_leather_mode_status	gt9xx_driver.c	/^static int gtp_leather_mode_status = 0;$/;"	v	file:
+gtp_main_clk_proc	gt9xx_driver.c	/^static u8 gtp_main_clk_proc(struct i2c_client *client)$/;"	f	file:
+gtp_rawdiff_mode	gt9xx_driver.c	/^u8 gtp_rawdiff_mode = 0;$/;"	v
+gtp_read_version	gt9xx_driver.c	/^s32 gtp_read_version(struct i2c_client *client, u16 *version)$/;"	f
+gtp_recovery_reset	gt9xx_driver.c	/^static void gtp_recovery_reset(struct i2c_client *client)$/;"	f	file:
+gtp_ref_retries	gt9xx_driver.c	/^u8 gtp_ref_retries = 0;$/;"	v
+gtp_reset_guitar	gt9xx_driver.c	/^void gtp_reset_guitar(struct i2c_client *client, s32 ms)$/;"	f
+gtp_send_cfg	gt9xx_driver.c	/^s32 gtp_send_cfg(struct i2c_client *client)$/;"	f
+gtp_send_cfg_for_charger	gt9xx_driver.c	/^s32 gtp_send_cfg_for_charger(struct i2c_client *client)$/;"	f
+gtp_set_refresh_rate	gt9xx_driver.c	/^static u8 gtp_set_refresh_rate(u8 rate)$/;"	f	file:
+gtp_wakeup_sleep	gt9xx_driver.c	/^static s8 gtp_wakeup_sleep(struct i2c_client *client)$/;"	f	file:
+gup_bit_write	gt9xx_update.c	/^static void gup_bit_write(s32 addr, s32 bit, s32 val)$/;"	f	file:
+gup_burn_dsp_isp	gt9xx_update.c	/^static u8 gup_burn_dsp_isp(struct i2c_client *client)$/;"	f	file:
+gup_burn_fw_app_code	gt9xx_update.c	/^static u8 gup_burn_fw_app_code(struct i2c_client *client)$/;"	f	file:
+gup_burn_fw_app_section	gt9xx_update.c	/^static u8 gup_burn_fw_app_section(struct i2c_client *client, u8 *fw_section, u16 start_addr, u32 len, u8 bank_cmd)$/;"	f	file:
+gup_burn_fw_boot	gt9xx_update.c	/^static u8 gup_burn_fw_boot(struct i2c_client *client)$/;"	f	file:
+gup_burn_fw_boot_isp	gt9xx_update.c	/^static u8 gup_burn_fw_boot_isp(struct i2c_client *client)$/;"	f	file:
+gup_burn_fw_dsp	gt9xx_update.c	/^static u8 gup_burn_fw_dsp(struct i2c_client *client)$/;"	f	file:
+gup_burn_fw_finish	gt9xx_update.c	/^static u8 gup_burn_fw_finish(struct i2c_client *client)$/;"	f	file:
+gup_burn_fw_link	gt9xx_update.c	/^static u8 gup_burn_fw_link(struct i2c_client *client)$/;"	f	file:
+gup_burn_fw_section	gt9xx_update.c	/^static u8 gup_burn_fw_section(struct i2c_client *client, u8 *fw_section, u16 start_addr, u8 bank_cmd)$/;"	f	file:
+gup_burn_fw_ss51	gt9xx_update.c	/^static u8 gup_burn_fw_ss51(struct i2c_client *client)$/;"	f	file:
+gup_burn_proc	gt9xx_update.c	/^static u8 gup_burn_proc(struct i2c_client *client, u8 *burn_buf, u16 start_addr, u16 total_length)$/;"	f	file:
+gup_check_and_repair	gt9xx_update.c	/^static u8 gup_check_and_repair(struct i2c_client *client, s32 check_start_addr, u8 *target_fw, u32 check_total_length)$/;"	f	file:
+gup_check_firmware	gt9xx_update.c	/^s32 gup_check_firmware(char *fw, u32 length)$/;"	f
+gup_check_fs_mounted	gt9xx_update.c	/^u8 gup_check_fs_mounted(char *path_name)$/;"	f
+gup_check_rootfs_readonly	gt9xx_update.c	/^u8 gup_check_rootfs_readonly(void)$/;"	f
+gup_check_update_file	gt9xx_update.c	/^static u8 gup_check_update_file(struct i2c_client *client, st_fw_head *fw_head, u8 *path)$/;"	f	file:
+gup_check_update_file_fl	gt9xx_update.c	/^static u8 gup_check_update_file_fl(struct i2c_client *client, st_fw_head *fw_head, char *path)$/;"	f	file:
+gup_clk_calibration	gt9xx_update.c	/^u8 gup_clk_calibration(void)$/;"	f
+gup_clk_calibration_pin_select	gt9xx_update.c	/^static u8 gup_clk_calibration_pin_select(s32 bCh)$/;"	f	file:
+gup_clk_count_get	gt9xx_update.c	/^static u32 gup_clk_count_get(void)$/;"	f	file:
+gup_clk_count_init	gt9xx_update.c	/^static void gup_clk_count_init(s32 bCh, s32 bCNT)$/;"	f	file:
+gup_clk_dac_setting	gt9xx_update.c	/^u8 gup_clk_dac_setting(int dac)$/;"	f
+gup_download_fw_dsp	gt9xx_update.c	/^static u8 gup_download_fw_dsp(struct i2c_client *client, u8 dwn_mode)$/;"	f	file:
+gup_download_fw_ss51	gt9xx_update.c	/^static u8 gup_download_fw_ss51(struct i2c_client *client, u8 dwn_mode)$/;"	f	file:
+gup_enter_update_judge	gt9xx_update.c	/^static u8 gup_enter_update_judge(st_fw_head *fw_head)$/;"	f	file:
+gup_enter_update_mode	gt9xx_update.c	/^s32 gup_enter_update_mode(struct i2c_client *client)$/;"	f
+gup_enter_update_mode_fl	gt9xx_update.c	/^s32 gup_enter_update_mode_fl(struct i2c_client *client)$/;"	f
+gup_enter_update_mode_noreset	gt9xx_update.c	/^s32 gup_enter_update_mode_noreset(void)$/;"	f
+gup_fw_download_proc	gt9xx_update.c	/^s32 gup_fw_download_proc(void *dir, u8 dwn_mode)$/;"	f
+gup_get_ic_fw_msg	gt9xx_update.c	/^static u8 gup_get_ic_fw_msg(struct i2c_client *client)$/;"	f	file:
+gup_get_ic_msg	gt9xx_update.c	/^static u8 gup_get_ic_msg(struct i2c_client *client, u16 addr, u8 *msg, s32 len)$/;"	f	file:
+gup_hold_ss51_dsp	gt9xx_update.c	/^s32 gup_hold_ss51_dsp(struct i2c_client *client)$/;"	f
+gup_i2c_read	gt9xx_update.c	/^static s32 gup_i2c_read(struct i2c_client *client, u8 *buf, s32 len)$/;"	f	file:
+gup_i2c_write	gt9xx_update.c	/^static s32 gup_i2c_write(struct i2c_client *client, u8 *buf, s32 len)$/;"	f	file:
+gup_init_update_proc	gt9xx_update.c	/^u8 gup_init_update_proc(struct i2c_client *client)$/;"	f
+gup_leave_update_mode	gt9xx_update.c	/^void gup_leave_update_mode(void)$/;"	f
+gup_load_by_bank	gt9xx_update.c	/^s32 gup_load_by_bank(u8 bank, u8 need_check, u8 *fw, u32 length)$/;"	f
+gup_load_fw_from_file	gt9xx_update.c	/^char *gup_load_fw_from_file(char *filepath)$/;"	f
+gup_load_fx_system	gt9xx_update.c	/^s32 gup_load_fx_system(void)$/;"	f
+gup_load_hotknot_system	gt9xx_update.c	/^s32 gup_load_hotknot_system(void)$/;"	f
+gup_load_main_system	gt9xx_update.c	/^s32 gup_load_main_system(char *filepath)$/;"	f
+gup_load_section_file	gt9xx_update.c	/^static u8 gup_load_section_file(u8 *buf, u32 offset, u16 length, u8 set_or_end)$/;"	f	file:
+gup_load_system	gt9xx_update.c	/^s32 gup_load_system(char *firmware, s32 length, u8 need_check)$/;"	f
+gup_prepare_fl_fw	gt9xx_update.c	/^static s32 gup_prepare_fl_fw(char *path, st_fw_head *fw_head)$/;"	f	file:
+gup_recall_check	gt9xx_update.c	/^static u8 gup_recall_check(struct i2c_client *client, u8 *check_src, u16 start_rd_addr, u16 check_length)$/;"	f	file:
+gup_recovery_main_system	gt9xx_update.c	/^s32 gup_recovery_main_system(void)$/;"	f
+gup_search_file	gt9xx_update.c	/^static void gup_search_file(s32 search_type)$/;"	f	file:
+gup_set_ic_msg	gt9xx_update.c	/^static u8 gup_set_ic_msg(struct i2c_client *client, u16 addr, u8 val)$/;"	f	file:
+gup_sys_clk_init	gt9xx_update.c	/^static void gup_sys_clk_init(void)$/;"	f	file:
+gup_update_config	gt9xx_update.c	/^static s8 gup_update_config(struct i2c_client *client)$/;"	f	file:
+gup_update_proc	gt9xx_update.c	/^s32 gup_update_proc(void *dir)$/;"	f
+hotknot_fops	goodix_tool.c	/^static const struct file_operations hotknot_fops = {$/;"	v	typeref:struct:file_operations	file:
+hotknot_misc_device	goodix_tool.c	/^static struct miscdevice hotknot_misc_device = {$/;"	v	typeref:struct:miscdevice	file:
+hotknot_open	goodix_tool.c	/^static int hotknot_open(struct inode *node, struct file *flip) {$/;"	f	file:
+hotknot_paired_flag	gt9xx_driver.c	/^u8 hotknot_paired_flag = 0;$/;"	v
+hotknot_read	goodix_tool.c	/^static ssize_t hotknot_read(struct file *file, char __user *buffer, size_t count, loff_t *ppos)$/;"	f	file:
+hotknot_release	goodix_tool.c	/^static int hotknot_release(struct inode *node, struct file *filp) {$/;"	f	file:
+hotknot_write	goodix_tool.c	/^static ssize_t hotknot_write(struct file *file, const char __user *buffer, size_t count, loff_t *ppos)$/;"	f	file:
+hw_info	gt9xx_update.c	/^	u8 hw_info[4];		\/*hardware info *\/$/;"	m	struct:__anon5	file:
+i2c_access	gt9xx_driver.c	/^DEFINE_MUTEX(i2c_access);$/;"	v
+i2c_auto_read	gt9xx_update.c	/^static s32 i2c_auto_read(struct i2c_client *client, u8 *rxbuf, int len)$/;"	f	file:
+i2c_client_point	gt9xx_driver.c	/^struct i2c_client *i2c_client_point = NULL;$/;"	v	typeref:struct:i2c_client
+i2c_dma_read	gt9xx_driver.c	/^s32 i2c_dma_read(struct i2c_client *client, u16 addr, u8 *rxbuf, s32 len)$/;"	f
+i2c_dma_write	gt9xx_driver.c	/^s32 i2c_dma_write(struct i2c_client *client, u16 addr, u8 *txbuf, s32 len)$/;"	f
+i2c_read_bytes	gt9xx_driver.c	/^int i2c_read_bytes(struct i2c_client *client, u16 addr, u8 *rxbuf, int len)$/;"	f
+i2c_read_bytes_dma	gt9xx_driver.c	/^s32 i2c_read_bytes_dma(struct i2c_client *client, u16 addr, u8 *rxbuf, s32 len)$/;"	f
+i2c_read_bytes_non_dma	gt9xx_driver.c	/^int i2c_read_bytes_non_dma(struct i2c_client *client, u16 addr, u8 *rxbuf, int len)$/;"	f
+i2c_write_bytes	gt9xx_driver.c	/^int i2c_write_bytes(struct i2c_client *client, u16 addr, u8 *txbuf, int len)$/;"	f
+i2c_write_bytes_dma	gt9xx_driver.c	/^s32 i2c_write_bytes_dma(struct i2c_client *client, u16 addr, u8 *txbuf, s32 len)$/;"	f
+i2c_write_bytes_non_dma	gt9xx_driver.c	/^int i2c_write_bytes_non_dma(struct i2c_client *client, u16 addr, u8 *txbuf, int len)$/;"	f
+ic_fw_msg	gt9xx_update.c	/^	st_fw_head ic_fw_msg;$/;"	m	struct:__anon6	file:
+ic_msg	gt9xx_driver.c	/^	u8 ic_msg[6];		\/*from the first byte *\/$/;"	m	struct:__anon2	file:
+init_wr_node	goodix_tool.c	/^s32 init_wr_node(struct i2c_client *client)$/;"	f
+int_type	gt9xx_driver.c	/^u8 int_type = 0;$/;"	v
+is_all_dead	gt9xx_driver.c	/^static u8 is_all_dead(u8 * longlong, s32 size)$/;"	f	file:
+is_charger_cfg_updating	gt9xx_driver.c	/^static bool is_charger_cfg_updating;$/;"	v	file:
+is_resetting	gt9xx_driver.c	/^u8 is_resetting = 0;$/;"	v
+key_1	include/tpd_custom_gt9xx.h	33;"	d
+key_2	include/tpd_custom_gt9xx.h	34;"	d
+key_3	include/tpd_custom_gt9xx.h	35;"	d
+load_fw_process	gt9xx_update.c	/^u8 load_fw_process = 0;$/;"	v
+old_fs	gt9xx_update.c	/^	mm_segment_t old_fs;$/;"	m	struct:__anon6	file:
+pid	gt9xx_driver.c	/^	u16 pid;$/;"	m	struct:__anon3	file:
+pid	gt9xx_update.c	/^	u8 pid[8];		\/*product id   *\/$/;"	m	struct:__anon5	file:
+pnl_init_error	gt9xx_driver.c	/^u8 pnl_init_error = 0;$/;"	v
+probe_thread	gt9xx_driver.c	/^static struct task_struct *probe_thread;$/;"	v	typeref:struct:task_struct	file:
+procname	goodix_tool.c	/^static char procname[20] = { 0 };$/;"	v	file:
+register_i2c_func	goodix_tool.c	/^static void register_i2c_func(void)$/;"	f	file:
+relation	goodix_tool.c	/^static u8 relation(u8 src, u8 dst, u8 rlt)$/;"	f	file:
+res	goodix_tool.c	/^	u8 res[3];		\/*reserved*\/$/;"	m	struct:__anon8	file:
+retry	goodix_tool.c	/^	u8 retry;		\/*I2C retry times*\/$/;"	m	struct:__anon8	file:
+rqst_processing	gt9xx_driver.c	/^u8 rqst_processing = 0;$/;"	v
+searching_file	gt9xx_update.c	/^u8 searching_file = 0;$/;"	v
+sensor_num	gt9xx_driver.c	/^u8 sensor_num = 0;$/;"	v
+setgesturestatus	gt9xx_driver.c	/^static s32 setgesturestatus(unsigned int cmd,unsigned long arg)$/;"	f	file:
+show_len	gt9xx_update.c	/^u16 show_len;$/;"	v
+show_refresh_rate	gt9xx_driver.c	/^static ssize_t show_refresh_rate(struct device *dev, struct device_attribute *attr, char *buf)$/;"	f	file:
+st_cmd_head	goodix_tool.c	/^} st_cmd_head;$/;"	t	typeref:struct:__anon8	file:
+st_fw_head	gt9xx_update.c	/^} st_fw_head;$/;"	t	typeref:struct:__anon5	file:
+st_gesture_data	gt9xx_driver.c	/^} st_gesture_data;$/;"	t	typeref:struct:__anon2	file:
+st_tpd_info	gt9xx_driver.c	/^} st_tpd_info;$/;"	t	typeref:struct:__anon3	file:
+st_update_msg	gt9xx_update.c	/^} st_update_msg;$/;"	t	typeref:struct:__anon6	file:
+store_refresh_rate	gt9xx_driver.c	/^static ssize_t store_refresh_rate(struct device *dev, struct device_attribute *attr, const char *buf, size_t size)$/;"	f	file:
+thread	gt9xx_driver.c	/^static struct task_struct *thread;$/;"	v	typeref:struct:task_struct	file:
+times	goodix_tool.c	/^	u8 times;		\/*plling times*\/$/;"	m	struct:__anon8	file:
+tool_i2c_read	goodix_tool.c	/^static s32 (*tool_i2c_read)(u8*, u16);$/;"	v	file:
+tool_i2c_read_no_extra	goodix_tool.c	/^static s32 tool_i2c_read_no_extra(u8 *buf, u16 len)$/;"	f	file:
+tool_i2c_read_with_extra	goodix_tool.c	/^static s32 tool_i2c_read_with_extra(u8 *buf, u16 len)$/;"	f	file:
+tool_i2c_write	goodix_tool.c	/^static s32 (*tool_i2c_write)(u8*, u16);$/;"	v	file:
+tool_i2c_write_no_extra	goodix_tool.c	/^static s32 tool_i2c_write_no_extra(u8 *buf, u16 len)$/;"	f	file:
+tool_i2c_write_with_extra	goodix_tool.c	/^static s32 tool_i2c_write_with_extra(u8 *buf, u16 len)$/;"	f	file:
+tool_set_proc_name	goodix_tool.c	/^static void tool_set_proc_name(char *procname)$/;"	f	file:
+total_len	gt9xx_update.c	/^u16 total_len;$/;"	v
+touch_event_handler	gt9xx_driver.c	/^static int touch_event_handler(void *unused)$/;"	f	file:
+touch_irq	gt9xx_driver.c	/^unsigned int touch_irq = 0;$/;"	v
+touch_key_array	gt9xx_driver.c	/^const u16 touch_key_array[] = TPD_KEYS;$/;"	v
+tp_wr_access	gt9xx_driver.c	/^DEFINE_MUTEX(tp_wr_access);$/;"	v
+tpd_def_calmat_local	gt9xx_driver.c	/^static int tpd_def_calmat_local[8] = TPD_CALIBRATION_MATRIX;$/;"	v	file:
+tpd_device_driver	gt9xx_driver.c	/^static struct tpd_driver_t tpd_device_driver = {$/;"	v	typeref:struct:tpd_driver_t	file:
+tpd_down	gt9xx_driver.c	/^static void tpd_down(s32 x, s32 y, s32 size, s32 id)$/;"	f	file:
+tpd_driver_exit	gt9xx_driver.c	/^module_exit(tpd_driver_exit);$/;"	v
+tpd_driver_exit	gt9xx_driver.c	/^static void __exit tpd_driver_exit(void)$/;"	f	file:
+tpd_driver_init	gt9xx_driver.c	/^module_init(tpd_driver_init);$/;"	v
+tpd_driver_init	gt9xx_driver.c	/^static int __init tpd_driver_init(void)$/;"	f	file:
+tpd_eint_interrupt_handler	gt9xx_driver.c	/^static irqreturn_t tpd_eint_interrupt_handler(unsigned irq, struct irq_desc *desc)$/;"	f	file:
+tpd_eint_interrupt_handler	gt9xx_driver.c	/^static void tpd_eint_interrupt_handler(void)$/;"	f	file:
+tpd_eint_mode	gt9xx_driver.c	/^static int tpd_eint_mode = 1;$/;"	v	file:
+tpd_enable_ps	gt9xx_driver.c	/^static s32 tpd_enable_ps(s32 enable)$/;"	f	file:
+tpd_filter_local	gt9xx_driver.c	/^static struct tpd_filter_t tpd_filter_local = TPD_FILTER_PARA;$/;"	v	typeref:struct:tpd_filter_t	file:
+tpd_flag	gt9xx_driver.c	/^static int tpd_flag;$/;"	v	file:
+tpd_get_ps_value	gt9xx_driver.c	/^static s32 tpd_get_ps_value(void)$/;"	f	file:
+tpd_halt	gt9xx_driver.c	/^int tpd_halt = 0;$/;"	v
+tpd_history_x	gt9xx_driver.c	/^static int tpd_history_x, tpd_history_y;$/;"	v	file:
+tpd_history_y	gt9xx_driver.c	/^static int tpd_history_x, tpd_history_y;$/;"	v	file:
+tpd_i2c_detect	gt9xx_driver.c	/^static int tpd_i2c_detect(struct i2c_client *client, struct i2c_board_info *info)$/;"	f	file:
+tpd_i2c_driver	gt9xx_driver.c	/^static struct i2c_driver tpd_i2c_driver = {$/;"	v	typeref:struct:i2c_driver	file:
+tpd_i2c_id	gt9xx_driver.c	/^static const struct i2c_device_id tpd_i2c_id[] = { {"gt9xx", 0}, {} };$/;"	v	typeref:struct:i2c_device_id	file:
+tpd_i2c_probe	gt9xx_driver.c	/^static s32 tpd_i2c_probe(struct i2c_client *client, const struct i2c_device_id *id)$/;"	f	file:
+tpd_i2c_remove	gt9xx_driver.c	/^static int tpd_i2c_remove(struct i2c_client *client)$/;"	f	file:
+tpd_info	gt9xx_driver.c	/^st_tpd_info tpd_info;$/;"	v
+tpd_irq_registration	gt9xx_driver.c	/^static int tpd_irq_registration(void)$/;"	f	file:
+tpd_keys_dim_local	gt9xx_driver.c	/^static int tpd_keys_dim_local[TPD_KEY_COUNT][4] = TPD_KEYS_DIM;$/;"	v	file:
+tpd_keys_local	gt9xx_driver.c	/^static int tpd_keys_local[TPD_KEY_COUNT] = TPD_KEYS;$/;"	v	file:
+tpd_local_init	gt9xx_driver.c	/^static int tpd_local_init(void)$/;"	f	file:
+tpd_of_match	gt9xx_driver.c	/^static const struct of_device_id tpd_of_match[] = {$/;"	v	typeref:struct:of_device_id	file:
+tpd_off	gt9xx_driver.c	/^static void tpd_off(void)$/;"	f	file:
+tpd_on	gt9xx_driver.c	/^static void tpd_on(void)$/;"	f	file:
+tpd_polling_time	gt9xx_driver.c	/^static int tpd_polling_time = 50;$/;"	v	file:
+tpd_power_on	gt9xx_driver.c	/^static int tpd_power_on(struct i2c_client *client)$/;"	f	file:
+tpd_proximity_detect	gt9xx_driver.c	/^static u8 tpd_proximity_detect = 1;	\/*0-->close ; 1--> far away*\/$/;"	v	file:
+tpd_proximity_flag	gt9xx_driver.c	/^static u8 tpd_proximity_flag;$/;"	v	file:
+tpd_ps_operate	gt9xx_driver.c	/^s32 tpd_ps_operate(void *self, u32 command, void *buff_in, s32 size_in, void *buff_out, s32 size_out, s32 *actualout)$/;"	f
+tpd_registration	gt9xx_driver.c	/^static int tpd_registration(void *client)$/;"	f	file:
+tpd_resume	gt9xx_driver.c	/^static void tpd_resume(struct device *h)$/;"	f	file:
+tpd_suspend	gt9xx_driver.c	/^static void tpd_suspend(struct device *h)$/;"	f	file:
+tpd_up	gt9xx_driver.c	/^static void tpd_up(s32 x, s32 y, s32 id)$/;"	f	file:
+tpd_wb_end_local	gt9xx_driver.c	/^static int tpd_wb_end_local[TPD_WARP_CNT] = TPD_WARP_END;$/;"	v	file:
+tpd_wb_start_local	gt9xx_driver.c	/^static int tpd_wb_start_local[TPD_WARP_CNT] = TPD_WARP_START;$/;"	v	file:
+tpgesture_area_h	gt9xx_driver.c	/^static int tpgesture_area_h = 0;$/;"	v	file:
+tpgesture_area_w	gt9xx_driver.c	/^static int tpgesture_area_w = 0;$/;"	v	file:
+uninit_wr_node	goodix_tool.c	/^void uninit_wr_node(void)$/;"	f
+unregister_i2c_func	goodix_tool.c	/^static void unregister_i2c_func(void)$/;"	f	file:
+update_msg	gt9xx_update.c	/^st_update_msg update_msg;$/;"	v
+vid	gt9xx_driver.c	/^	u16 vid;$/;"	m	struct:__anon3	file:
+vid	gt9xx_update.c	/^	u16 vid;		\/*version id   *\/$/;"	m	struct:__anon5	file:
+wait_hotknot_state	goodix_tool.c	/^u8 wait_hotknot_state = 0;$/;"	v
+wr	goodix_tool.c	/^	u8 wr;			\/*write read flag£¬0:R  1:W  2:PID 3:*\/$/;"	m	struct:__anon8	file:
+
+## modify@zte.com.cn 20160325 end

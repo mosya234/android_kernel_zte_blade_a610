@@ -1,0 +1,12 @@
+#modified modify@zte.com.cn 20160510 begin
+#
+# Makefile for misc devices that really don't fit anywhere else.
+#
+ccflags-$(CONFIG_MTK_LCM) += -I$(srctree)/drivers/misc/mediatek/lcm/inc
+
+obj-y += ili9881_CA_hd720_dsi_vdo_yassy_E169F.o
+
+#modified modify@zte.com.cn 20160510 end
+
+
+

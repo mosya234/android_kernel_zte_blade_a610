@@ -1,0 +1,18 @@
+
+config MTK_EPL2182_NEW
+	bool "MTK_EPL2182_NEW for MediaTek package"
+	default n
+	help
+	It support different type sensor
+	in this platform. If this option
+	is set, it will support ambient
+	and light sensor MTK_EPL2182_NEW.
+
+
+##modify@zte.com.cn add 20160229 begin
+config WIND_DEF_PRO_E183L
+	bool "WIND_DEF_PRO_E183L for MediaTek package"
+	default n
+	help
+	  Only for E183L P-sensor Calibration
+##modify@zte.com.cn add 20160229 end

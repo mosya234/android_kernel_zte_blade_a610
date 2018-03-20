@@ -1,0 +1,26 @@
+#
+# Himax Touchscreen driver configuration
+#
+#modify@zte.com.cn 20160612 begin
+config TOUCHSCREEN_HIMAX_I2C_E188F
+        tristate "HIMAX HX852xES serious i2c touchscreen"
+		depends on TOUCHSCREEN_HIMAX_HX852xES_E188F
+		help
+		This enables support for HIMAX HX852xES over I2C based touchscreens.
+
+#config TOUCHSCREEN_HIMAX_DEBUG
+#        tristate "HIMAX debug function"
+#		depends on TOUCHSCREEN_HIMAX_I2C_E188F
+#		help
+#		This enables support for HIMAX debug function.
+config HMX_DB
+	tristate "HIMAX driver test over Dragon Board"
+	depends on TOUCHSCREEN_HIMAX_I2C_E188F
+	help
+	  This enables support for HIMAX driver test over Dragon Board.
+config WIND_SMWP_ENABLE
+        tristate "HIMAX HX852xES gesture enbale"
+		depends on TOUCHSCREEN_HIMAX_HX852xES_E188F
+		help
+		This enables support for HIMAX HX852xES gesture.
+#modify@zte.com.cn 20160612 begin
