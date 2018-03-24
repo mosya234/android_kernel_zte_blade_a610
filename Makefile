@@ -399,9 +399,10 @@ LINUXINCLUDE    := \
 KBUILD_CPPFLAGS := -D__KERNEL__
 
 KBUILD_CFLAGS   := -Wall -Wundef -Wstrict-prototypes -Wno-trigraphs \
-		   -fno-strict-aliasing -fno-common \
-		   -Werror-implicit-function-declaration \
-		   -Wno-format-security \
+		   -fno-strict-aliasing -fno-common -Wno-array-bounds -Wno-maybe-uninitialized \
+		   -Werror=overflow -Wno-misleading-indentation -Wno-unused-const-variable \
+		   -Wno-format-security -Wno-discarded-array-qualifiers -Wno-memset-transposed-args \
+		   -Wno-bool-compare -Wno-logical-not-parentheses -Wno-switch-bool -Wno-tautological-compare \
 		   -std=gnu89
 
 KBUILD_AFLAGS_KERNEL :=
@@ -754,13 +755,17 @@ KBUILD_CFLAGS += $(call cc-option,-Wdeclaration-after-statement,)
 KBUILD_CFLAGS += $(call cc-disable-warning, pointer-sign)
 
 # disable invalid "can't wrap" optimizations for signed / pointers
-KBUILD_CFLAGS	+= $(call cc-option,-fno-strict-overflow)
+KBUILD_CFLAGS	+= $(call cc-disable-warning,-fno-strict-overflow)
+# GCC 5.3 < compile hack
+KBUILD_CFLAGS	+= $(call cc-disable-warning, overflow)
+KBUILD_CFLAGS	+= $(call cc-disable-warning, implicit-function-declaration)
 
 # conserve stack if available
 KBUILD_CFLAGS   += $(call cc-option,-fconserve-stack)
 
 # disallow errors like 'EXPORT_GPL(foo);' with missing header
 KBUILD_CFLAGS   += $(call cc-option,-Werror=implicit-int)
+
 
 # require functions to have arguments in prototypes, not empty 'int foo()'
 KBUILD_CFLAGS   += $(call cc-option,-Werror=strict-prototypes)

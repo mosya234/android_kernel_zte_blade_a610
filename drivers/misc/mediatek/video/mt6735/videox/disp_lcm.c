@@ -10,6 +10,17 @@
 
 #include "disp_lcm.h"
 
+/* sanford.lin add on 20160308 for get driver information */
+#ifdef AEON_DEVICE_PROC_MANAGER
+#include <linux/uaccess.h>
+#include <linux/fs.h>
+#include <linux/proc_fs.h>
+#define LCM_PROC_NAME	"AEON_LCM"
+LCM_DRIVER *aeon_lcm_drv = NULL;
+static struct proc_dir_entry *lcm_proc_entry = NULL;
+#endif
+/* sanford.lin end on 20160308 */
+
 #if defined(MTK_LCM_DEVICE_TREE_SUPPORT)
 #include <linux/of.h>
 
@@ -773,6 +784,62 @@ void load_lcm_resources_from_DT(LCM_DRIVER *lcm_drv)
 }
 #endif
 
+/* sanford.lin add on 20160308 for get driver information */
+#ifdef AEON_DEVICE_PROC_MANAGER
+const char* disp_get_lcm_id(void)
+{
+	DISPFUNC();
+
+    if(aeon_lcm_drv)
+        return aeon_lcm_drv->name;
+    else
+        return NULL;	
+}
+
+static ssize_t mtkfb_proc_oem_read(struct file *file, char *buffer, size_t count, loff_t *ppos)
+{
+	char *page = NULL;
+    char *ptr = NULL;
+	int len, err = -1;
+
+	page = kmalloc(PAGE_SIZE, GFP_KERNEL);
+	if (!page)
+	{
+		kfree(page);
+		return -ENOMEM;
+	}
+	ptr = page;
+
+//	if (disp_get_lcm_id())
+		ptr += sprintf(ptr, "%s\n", disp_get_lcm_id());
+//	else
+//		ptr += sprintf(ptr, "unknow lcm name\n");
+
+	len = ptr - page;
+	if(*ppos >= len)
+	{
+		kfree(page);
+		return 0;
+	}
+
+	err = copy_to_user(buffer,(char *)page,len);
+	*ppos += len;
+
+	if(err)
+	{
+		kfree(page);
+		return err;
+	}
+	kfree(page);
+	return len;
+}
+
+static const struct file_operations mtkfb_proc_fops = { 
+    .read = mtkfb_proc_oem_read
+};
+#endif
+/* sanford.lin end on 20160308 */
+
 disp_lcm_handle *disp_lcm_probe(char *plcm_name, LCM_INTERFACE_ID lcm_id)
 {
 	int lcmindex = 0;
@@ -868,7 +935,16 @@ disp_lcm_handle *disp_lcm_probe(char *plcm_name, LCM_INTERFACE_ID lcm_id)
 		if (plcm->params->type == LCM_TYPE_DBI
 		    && plcm->params->lcm_if == LCM_INTERFACE_NOTDEFINED)
 			plcm->lcm_if_id = LCM_INTERFACE_DBI0;
-
+		/* sanford.lin add on 20160308 for get driver information */
+		#ifdef AEON_DEVICE_PROC_MANAGER
+			aeon_lcm_drv = lcm_drv;
+			lcm_proc_entry = proc_create(LCM_PROC_NAME, 0777, NULL, &mtkfb_proc_fops);
+		    	if (NULL == lcm_proc_entry)
+		    	{
+				printk("proc_create %s failed\n", LCM_PROC_NAME);
+		    	}			
+		#endif
+		/* sanford.lin end on 20160308 */
 		if ((lcm_id == LCM_INTERFACE_NOTDEFINED) || lcm_id == plcm->lcm_if_id) {
 			plcm->lcm_original_width = plcm->params->width;
 			plcm->lcm_original_height = plcm->params->height;
